@@ -2,12 +2,11 @@ import java.util.Scanner
 
 fun main() {
     val scanner = Scanner(System.`in`)
+    val studentName = "Pham Phuong Nhi"
+    val studentId = "2415053122227"
 
-    print("Nhap ho ten sinh vien: ")
-    val studentName = scanner.nextLine()
-
-    print("Nhap ma so sinh vien: ")
-    val studentId = scanner.nextLine()
+    println("Sinh vien: $studentName - MSSV: $studentId")
+    println("---------------------------------------")
 
     print("Nhap diem Math: ")
     val math = scanner.nextDouble()
